@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="" method="post">
+
+    <p>voornaam <input type="text"pattern="[A-Za-z]*" required></p>
+     <p>achternaam <input type="text"pattern="[A-Za-z]*" required></p>
+
+     <p>email <input type="email" required></p>
+
+     <p>geslacht</p>
+     <input type="radio" name="geslacht" id="man" checked>
+     <label for="man">man</label>
+     <input type="radio" name="geslacht" id="vrouw" >
+     <label for="vrouw">vrouw</label>
+     <p>verjaardag (Alleen maand en jaar) <input type="month"></p>
+     <p>straat+huisnummer <input type="text"></p>
+     <p>postcode <input type="text"></p>
+
+      <p> land van herkomst<select name="land" id="land">
+        <option value="Belgie">Belgie</option>
+        <option value="Nederland">Nederland</option>
+     </select></p>
+
+     <p>stad <input type="text"></p>
+     
+
+     <p>BSN <input type="text" pattern="[0-9]"{9} required></p>
+
+     <p><select name="land" id="land">
+        <option value="china">china</option>
+        <option value="Griekenland">Griekenland</option>
+        <option value="turkije">turkije</option>
+        <option value="frankrijk">frankrijk</option>
+     </select></p>
+
+     <input type="date"id="vertrek" min="2025-10-01">
+     <input type="date"id="terugkomst" min="2025-10-01">
+
+     <p>aantaal reizigers <input type="number" min="1" max="4"></p>
+     <p>email <input type="email"></p>
+
+     
+
+     <p><input type="password"  placeholder="vul hier uw wachtwoord in"></p>
+
+
+    <p><input type="submit" value="boek nu"></p>
+
+    
+</body>
+</html>
