@@ -1,0 +1,60 @@
+h1{
+    font-size: 24px;
+    color: blue;
+    font: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+
+    color:  #0000ff;
+    font: bold;
+}
+
+h3{
+font-size: 16px;
+
+color: teal;
+
+font: bold
+}
+
+p{
+    color: #4D4D4D ;
+}
+p:first-of-type {
+    font-weight: bold;
+    color: black;
+}
+
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;   
+}
+
+header{
+    background-image: url(img/2025.png);
+    background-size: cover;      
+    background-position: center;  
+    height: 33vh;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+h1{ color: #8A2BE2;}
+
+article{
+    border-radius: 20px;
+    background-color: #8A2BE2;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-left: 100px solid black;
+}
+
+body {
+    overflow-x: hidden;
+}
